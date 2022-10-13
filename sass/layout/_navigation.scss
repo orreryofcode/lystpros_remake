@@ -1,0 +1,72 @@
+.nav {
+    display: flex;
+    width: 38vw;
+    align-items: center;
+    justify-content: space-between;
+    font-family: $font-display;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-right: 1rem;
+
+    &__logo {
+        margin-right: 3rem;
+
+        &-img {
+            width: 16rem;
+        }
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        text-transform: uppercase;
+    }
+
+    &__item {
+        padding: .8rem 0;
+    }
+
+
+
+    &__btns {
+       display: flex;
+       align-items: center;
+    }
+
+
+
+
+    &__link,
+    &__link:active,
+    &__link:visited {
+        padding: .7rem 1.5rem;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 1rem;
+        transition: all .2s; 
+        color: $color-black;
+    
+       &:hover{
+            background-color: #F5F5F5;
+        }
+    }
+
+    &__link--phone,
+    &__link--phone:active,
+    &__link--phone:visited {
+        color: $color-primary;
+    }
+
+
+
+
+
+}
+
+.flag {
+    width: 3rem;
+}
+
+sup {
+    font-size: 1rem;
+}

@@ -1,0 +1,19 @@
+.banner {
+    width: 100%;
+    background-color: $color-black;
+    color: $color-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem 0;
+
+
+
+
+    &__text {
+        font-size: 1.5rem;
+        font-family: $font-display;
+    }
+
+    
+}

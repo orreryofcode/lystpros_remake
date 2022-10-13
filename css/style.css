@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;600;700&family=Lato:wght@400;700&display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  /* Adds a padding around the entire body */
+}
+
+body {
+  /* Set font family on body for the sake of inheritance */
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #222222;
+}
+
+.btn {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Exo";
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn-banner {
+  padding: 0.5rem 1.2rem;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: #B99C75;
+  border-radius: 0.8rem;
+  text-transform: capitalize;
+  border: 2px solid #B99C75;
+  transition: all 0.2s ease;
+}
+.btn-banner:hover {
+  background-color: #222222;
+}
+.btn-main {
+  background-color: #B99C75;
+  padding: 1.3rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  margin-left: 1rem;
+  transition: all 0.2s ease;
+}
+.btn-main:hover {
+  background-color: #222222;
+}
+.btn-blk {
+  background-color: #222222;
+  padding: 1.3rem 1.7rem;
+  font-size: 1.2rem;
+  border-radius: 6px;
+}
+.btn-blk:hover {
+  background-color: #B99C75;
+}
+
+.banner {
+  width: 100%;
+  background-color: #222222;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 0;
+}
+.banner__text {
+  font-size: 1.5rem;
+  font-family: "Exo";
+}
+
+.nav {
+  display: flex;
+  width: 38vw;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Exo";
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-right: 1rem;
+}
+.nav__logo {
+  margin-right: 3rem;
+}
+.nav__logo-img {
+  width: 16rem;
+}
+.nav__list {
+  list-style: none;
+  display: flex;
+  text-transform: uppercase;
+}
+.nav__item {
+  padding: 0.8rem 0;
+}
+.nav__btns {
+  display: flex;
+  align-items: center;
+}
+.nav__link, .nav__link:active, .nav__link:visited {
+  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  color: #222222;
+}
+.nav__link:hover, .nav__link:active:hover, .nav__link:visited:hover {
+  background-color: #F5F5F5;
+}
+.nav__link--phone, .nav__link--phone:active, .nav__link--phone:visited {
+  color: #B99C75;
+}
+
+.flag {
+  width: 3rem;
+}
+
+sup {
+  font-size: 1rem;
+}
+
+.header__container {
+  padding: 2rem 0;
+  height: 100%;
+}
+.header__hero {
+  width: 100%;
+  height: 90vh;
+  padding: 1rem 0;
+  border-radius: 2rem;
+  background-image: url(/imgs/hero.jpg);
+  background-size: cover;
+}
+
+.section__nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.section__header {
+  height: 110vh;
+  background-image: linear-gradient(to bottom, rgb(236, 236, 236), 5%, #fff);
+  padding: 0 2.5rem;
+  padding-bottom: 10rem;
+}

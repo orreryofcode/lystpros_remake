@@ -1,0 +1,13 @@
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Pin</title>
+    <g style="transform: translateX(4px);" id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-573.000000, -998.000000)" fill-rule="nonzero">
+            <g id="Group-12" transform="translate(402.000000, 694.000000)">
+                <g id="Pin" transform="translate(171.000000, 304.000000)">
+                    <path d="M17.5,44 C29.1666667,32.7465695 35,23.9035453 35,17.4709275 C35,7.82200066 27.1649831,0 17.5,0 C7.83501688,0 0,7.82200066 0,17.4709275 C0,23.9035453 5.83333333,32.7465695 17.5,44 Z" id="Oval" fill="#F82920"/>
+                    <ellipse id="Oval" fill="#FAFAF7" cx="17.5" cy="17.4709275" rx="14" ry="13.976742"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
